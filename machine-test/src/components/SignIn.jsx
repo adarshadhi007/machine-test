@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { login } from "../redux/authSlice";
-import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube, FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/css/signin.css";

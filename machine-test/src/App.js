@@ -3,7 +3,7 @@ import { Provider } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import store from "./redux/store";
 import SignIn from "./components/SignIn";
-import Home from "./components/Homepage"; // Import the Home component
+import Home from "./components/Homepage";
 
 const App = () => (
   <Provider store={store}>
